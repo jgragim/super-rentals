@@ -1,9 +1,8 @@
-# super-rentals
+# Super Rentals
 
 Super Rentals app based on Ember.js.
 
-This app has been created following the tutorial from the official documentation: 
-https://guides.emberjs.com/release/tutorial/part-1/
+This app has been created following the [tutorial](https://guides.emberjs.com/release/tutorial/part-1/) from the official documentation.
 
 ## Prerequisites
 
