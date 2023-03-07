@@ -1,7 +1,9 @@
 # super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Super Rentals app based on Ember.js.
+
+This app has been created following the tutorial from the official documentation: 
+https://guides.emberjs.com/release/tutorial/part-1/
 
 ## Prerequisites
 
