@@ -23,7 +23,7 @@ module('Integration | Component | map', function (hooks) {
       .hasAttribute('src')
       .hasAttribute('width', '150')
       .hasAttribute('height', '120');
-    
+
     let { src } = find('.map img');
     let token = encodeURIComponent(ENV.MAPBOX_ACCESS_TOKEN);
 
@@ -108,7 +108,6 @@ module('Integration | Component | map', function (hooks) {
       'the src should include the width,height and @2x parameter'
     );
   });
-
 
   test('the default alt attribute can be overridden', async function (assert) {
     await render(hbs`<Map
