@@ -17,7 +17,7 @@ class MockRouterService extends Service {
 
 module('Integration | Component | share-button', function (hooks) {
   setupRenderingTest(hooks);
-  
+
   hooks.beforeEach(function () {
     this.owner.register('service:router', MockRouterService);
 
@@ -39,7 +39,7 @@ module('Integration | Component | share-button', function (hooks) {
       .hasClass('share')
       .hasClass('button')
       .containsText('Tweet this!');
-        
+
     assert.strictEqual(this.tweetParam('url'), MOCK_URL.href);
   });
 
